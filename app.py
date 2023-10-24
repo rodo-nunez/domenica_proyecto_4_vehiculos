@@ -1,6 +1,9 @@
 import pandas as pd
 import plotly.express as px
 import streamlit as st
+import altair as alt
+
+alt.renderers.enable("mimetype")
 url = 'https://raw.githubusercontent.com/doalpinc98/proyecto_4_vehiculos/main/vehicles_us.csv'
 car_data = pd.read_csv(url) # leer los datos
 hist_button = st.button('Construir histograma') # crear un botón
