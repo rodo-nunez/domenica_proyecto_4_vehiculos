@@ -1,7 +1,7 @@
 [server]
 headless = true
-port = 5000
+port = 10000
 
 [browser]
-serverAddress = "127.0.0.1"
-serverPort = 5000 
+serverAddress = "0.0.0.0"
+serverPort = 10000 
