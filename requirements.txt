@@ -4,7 +4,7 @@ streamlit==1.12.2
 altair==4.2.2
 matplotlib==3.5.3
 notebook==6.5.4
-numpy==1.22.4
+numpy==1.21.6
 plotly==5.17.0
 plotly-express==0.4.1
 seaborn==0.13.0
